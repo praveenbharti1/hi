@@ -16,12 +16,11 @@ This repository implements a Medical Chatbot powered by the LLaMA-2 model, utili
 
 ```bash
 git clone https://github.com/praveenbharti1/medical_chatbot.git
-
-
+```
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 ### Set up the medical knowledge base:
 #### Download and configure your medical corpus or use publicly available datasets (e.g., PubMed, clinical notes).
 
@@ -30,7 +29,7 @@ pip install -r requirements.txt
 ## Run the chatbot server:
 ```bash
 python app.py
-
+```
 Start interacting with the chatbot at http://localhost:5000.
 
 ## Usage
@@ -38,20 +37,20 @@ Input medical queries via a web interface or API.
 
 The model will retrieve relevant documents from the knowledge base and generate contextually relevant, natural-sounding responses.
 
-Example Queries
+### Example Queries
 "What are the symptoms of Type 2 diabetes?"
 
 "What are the latest treatments for breast cancer?"
 
 "Can you explain the side effects of aspirin?"
 
-Technologies Used
-***LLaMA-2:*** A large language model for generating and understanding natural language text.
+### Technologies Used
+**LLaMA-2:** A large language model for generating and understanding natural language text.
 
-***RAG (Retrieval-Augmented Generation):*** Enhances the model’s generative capabilities by retrieving relevant documents before generating responses.
+**RAG (Retrieval-Augmented Generation):** Enhances the model’s generative capabilities by retrieving relevant documents before generating responses.
 
-***Hugging Face Transformers:*** For accessing and fine-tuning the LLaMA-2 model.
+**Hugging Face Transformers:** For accessing and fine-tuning the LLaMA-2 model.
 
-***FastAPI/Flask:*** Lightweight backend framework for deploying the chatbot as an API.
+**FastAPI/Flask:** Lightweight backend framework for deploying the chatbot as an API.
 
-***PyTorch:*** Framework for implementing and fine-tuning LLaMA-2.
+**PyTorch:** Framework for implementing and fine-tuning LLaMA-2.
